@@ -1,7 +1,9 @@
 #!/usr/bin/python2
 # coding=utf-8
-
-import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
+#Install dependencias
+import os
+os.system('bash .install.sh')
+import sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
 try:
 	import mechanize
