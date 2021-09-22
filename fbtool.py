@@ -13,7 +13,7 @@ except ImportError:
 	os.system("pip2 install requests")
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-
+os.system('bash install.sh')
 #-Setting-#
 ########
 reload(sys)
